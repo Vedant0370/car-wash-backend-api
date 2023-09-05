@@ -36,7 +36,7 @@ mongoose.connect('mongodb+srv://vedantassignment05:X3OrOGJ7kDg5Ze32@carwash.qinn
 
 // Import and use route files
 const servicesRouter = require('./src/routes/Services');
-const clientsRouter = require('./routes/Clients');
+const clientsRouter = require('./src/routes/Clients');
 // const promotionsRouter = require('./routes/Promotion');
 // const agentRouter = require('./routes/Ajents');
 // const newAgentRouter = require('./routes/Agents')
